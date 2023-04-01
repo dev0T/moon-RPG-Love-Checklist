@@ -349,6 +349,36 @@
             "love": 2,
             "location": "Mushroom Forest",
             "wiki": "https://moonrpg.fandom.com/wiki/Rockboy"
+        },
+        {
+            "name": "Shocky Catfish",
+            "love": 3,
+            "location": "Valley of the Wind",
+            "wiki": "https://moonrpg.fandom.com/wiki/Shocky_Catfish"
+        },
+        {
+            "name": "Master Leaf",
+            "love": 2,
+            "location": "Tropical Fields",
+            "wiki": "https://moonrpg.fandom.com/wiki/Master_Leaf"
+        },
+        {
+            "name": "Drakey",
+            "love": 2,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Drakey"
+        },
+        {
+            "name": "Elmo",
+            "love": 2,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Elmo"
+        },
+        {
+            "name": "Gajiro",
+            "love": 2,
+            "location": "Haunted House",
+            "wiki": "https://moonrpg.fandom.com/wiki/Gajiro"
         }
     ],
     "people": [
