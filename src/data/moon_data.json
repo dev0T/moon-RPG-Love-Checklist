@@ -379,6 +379,84 @@
             "love": 2,
             "location": "Haunted House",
             "wiki": "https://moonrpg.fandom.com/wiki/Gajiro"
+        },
+        {
+            "name": "Thworm",
+            "love": 4,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Thworm"
+        },
+        {
+            "name": "Value Boy",
+            "love": 2,
+            "location": "American House",
+            "wiki": "https://moonrpg.fandom.com/wiki/Value_Boy"
+        },
+        {
+            "name": "Wavio",
+            "love": 2,
+            "location": "Mushroom Forest",
+            "wiki": "https://moonrpg.fandom.com/wiki/Wavio"
+        },
+        {
+            "name": "Slymy",
+            "love": 2,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Slymy"
+        },
+        {
+            "name": "Shlyme",
+            "love": 2,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Shlyme"
+        },
+        {
+            "name": "Goddog Mai Mai",
+            "love": 2,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Goddog_Mai_Mai"
+        },
+        {
+            "name": "Jimi",
+            "love": 2,
+            "location": "Technopolis",
+            "wiki": "https://moonrpg.fandom.com/wiki/Jimi"
+        },
+        {
+            "name": "Gluttandra",
+            "love": 2,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Gluttandra"
+        },
+        {
+            "name": "Mr. Droll",
+            "love": 3,
+            "location": "Valley of the Wind",
+            "wiki": "https://moonrpg.fandom.com/wiki/Mr._Droll"
+        },
+        {
+            "name": "Molio",
+            "love": 3,
+            "location": "Valley of the Wind",
+            "wiki": "https://moonrpg.fandom.com/wiki/Molio"
+        },
+        {
+            "name": "Semimaru",
+            "love": 2,
+            "location": "Rainbow Rocks",
+            "wiki": "https://moonrpg.fandom.com/wiki/Semimaru"
+        },
+        {
+            "name": "Shellwhale",
+            "love": 2,
+            "location": "Shellwhale Cove",
+            "wiki": "https://moonrpg.fandom.com/wiki/Shellwhale"
+        },
+        {
+            "name": "Shadowbird",
+            "love": 3,
+            "location": "Tropical Fields",
+            "wiki": "https://moonrpg.fandom.com/wiki/Shadowbird"
         }
     ],
     "people": [
@@ -412,6 +490,30 @@
             "loveRewards": [
                 {
                     "love": 6,
+                    "location": "Castle"
+                }
+            ]
+        },
+        {
+            "name": "Noge",
+            "wiki": "https://moonrpg.fandom.com/wiki/Noge",
+            "loveRewards": [
+                {
+                    "love": 1,
+                    "location": "Castle"
+                },
+                {
+                    "love": 2,
+                    "location": "Castle"
+                }
+            ]
+        },
+        {
+            "name": "Minister",
+            "wiki": "https://moonrpg.fandom.com/wiki/Minister",
+            "loveRewards": [
+                {
+                    "love": 2,
                     "location": "Castle"
                 }
             ]
