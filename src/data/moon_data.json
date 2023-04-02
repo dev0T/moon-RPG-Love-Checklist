@@ -517,6 +517,60 @@
                     "location": "Castle"
                 }
             ]
+        },
+        {
+            "name": "Tao",
+            "wiki": "https://moonrpg.fandom.com/wiki/Tao",
+            "loveRewards": [
+                {
+                    "love": 4,
+                    "location": "Gramby's House"
+                }
+            ]
+        },
+        {
+            "name": "Wanda",
+            "wiki": "https://moonrpg.fandom.com/wiki/Wanda",
+            "loveRewards": [
+                {
+                    "love": 1,
+                    "location": "Bar Wanda"
+                }
+            ]
+        },
+        {
+            "name": "Florence",
+            "wiki": "https://moonrpg.fandom.com/wiki/Florence",
+            "loveRewards": [
+                {
+                    "love": 1,
+                    "location": "Mushroom Forest"
+                }
+            ]
+        },
+        {
+            "name": "Birdman",
+            "wiki": "https://moonrpg.fandom.com/wiki/Birdman",
+            "loveRewards": [
+                {
+                    "love": 2,
+                    "location": "Twilight Canyon"
+                }
+            ]
+        },
+        {
+            "name": "Gramby",
+            "wiki": "https://moonrpg.fandom.com/wiki/Gramby",
+            "loveRewards": [
+                {
+                    "love": 1,
+                    "location": "Gramby's House"
+                },
+                {
+                    "love": 1,
+                    "location": "Gramby's House"
+                }
+            ]
         }
     ]
 }
