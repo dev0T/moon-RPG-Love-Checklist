@@ -571,6 +571,26 @@
                     "location": "Gramby's House"
                 }
             ]
+        },
+        {
+            "name": "Curio",
+            "wiki": "https://moonrpg.fandom.com/wiki/Curio",
+            "loveRewards": [
+                {
+                    "love": 1,
+                    "location": "Curio's Shop"
+                }
+            ]
+        },
+        {
+            "name": "Baker",
+            "wiki": "https://moonrpg.fandom.com/wiki/Baker",
+            "loveRewards": [
+                {
+                    "love": 1,
+                    "location": "Bakery"
+                }
+            ]
         }
     ]
 }
