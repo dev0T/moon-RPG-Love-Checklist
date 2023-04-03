@@ -3,9 +3,9 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        240: '60rem'
-      }
-    }
+        240: '60rem',
+      },
+    },
   },
   plugins: [require('daisyui')],
   daisyui: {
@@ -13,9 +13,9 @@ module.exports = {
     themes: true,
     base: true,
     utils: true,
-    logs: true,
+    logs: false,
     rtl: false,
     prefix: '',
-    darkTheme: 'forest'
-  }
+    darkTheme: 'forest',
+  },
 }
