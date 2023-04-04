@@ -1,9 +1,18 @@
 const Footer = () => {
   return (
     <footer className="flex flex-col grow-0 bg-green-950 items-center p-10">
-      <div>This page is not affiliated with Onion Games or Love-de-Lic.</div>
-      <div>© 2023 moon rpg checklist</div>
-      <div>Made by T & Salgueiro</div>
+      <div>This page is not affiliated with Onion Games.</div>
+      <div>moon © Onion Games</div>
+      <div>
+        Made by{' '}
+        <a href="https://github.com/dev0T" target="_blank">
+          dev0T
+        </a>{' '}
+        &{' '}
+        <a href="https://github.com/salguerooo" target="_blank">
+          salguerooo
+        </a>
+      </div>
     </footer>
   )
 }

@@ -465,6 +465,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Kenji",
       "loveRewards": [
         {
+          "id": 1,
           "love": 1,
           "location": "Wildcat House"
         }
@@ -475,10 +476,12 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Clis",
       "loveRewards": [
         {
+          "id": 1,
           "love": 2,
           "location": "Wildcat House"
         },
         {
+          "id": 2,
           "love": 2,
           "location": "Technopolis"
         }
@@ -489,6 +492,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Fred",
       "loveRewards": [
         {
+          "id": 1,
           "love": 6,
           "location": "Castle"
         }
@@ -499,10 +503,12 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Noge",
       "loveRewards": [
         {
+          "id": 1,
           "love": 1,
           "location": "Castle"
         },
         {
+          "id": 2,
           "love": 2,
           "location": "Castle"
         }
@@ -513,6 +519,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Minister",
       "loveRewards": [
         {
+          "id": 1,
           "love": 2,
           "location": "Castle"
         }
@@ -523,6 +530,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Tao",
       "loveRewards": [
         {
+          "id": 1,
           "love": 4,
           "location": "Gramby's House"
         }
@@ -533,6 +541,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Wanda",
       "loveRewards": [
         {
+          "id": 1,
           "love": 1,
           "location": "Bar Wanda"
         }
@@ -543,6 +552,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Florence",
       "loveRewards": [
         {
+          "id": 1,
           "love": 1,
           "location": "Mushroom Forest"
         }
@@ -553,6 +563,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Birdman",
       "loveRewards": [
         {
+          "id": 1,
           "love": 2,
           "location": "Twilight Canyon"
         }
@@ -563,10 +574,12 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Gramby",
       "loveRewards": [
         {
+          "id": 1,
           "love": 1,
           "location": "Gramby's House"
         },
         {
+          "id": 2,
           "love": 1,
           "location": "Gramby's House"
         }
@@ -577,6 +590,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Curio",
       "loveRewards": [
         {
+          "id": 1,
           "love": 1,
           "location": "Curio's Shop"
         }
@@ -587,6 +601,7 @@
       "wiki": "https://moonrpg.fandom.com/wiki/Baker",
       "loveRewards": [
         {
+          "id": 1,
           "love": 1,
           "location": "Bakery"
         }
