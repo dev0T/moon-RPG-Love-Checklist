@@ -7,7 +7,7 @@ const AnimalsChecklist = () => {
   return (
     <div>
       <h2 className="text-center text-3xl">Animals</h2>
-      <div className="bg-black m-4">
+      <div className="m-4 bg-base-100">
         <ul>
           {animals.map((animal) => (
             <AnimalsChecklistItem {...animal} key={animal.name} />

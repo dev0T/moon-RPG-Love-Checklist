@@ -1,4 +1,5 @@
-import { ChecklistTypes, useChecklistStore } from '../store/checklistStore'
+import { useChecklistStore } from '../store/checklistStore'
+import { ChecklistTypes } from '../utils/types'
 
 interface AnimalChecklistItemProps {
   name: string
@@ -37,7 +38,7 @@ const AnimalsChecklistItem = ({
             name="progress"
             data-key={name}
             data-love={love}
-            className="checkbox checkbox-secondary checkbox-md "
+            className="checkbox-secondary checkbox checkbox-md"
             checked={isChecked}
             onChange={handleChecklistItemChange}
           />

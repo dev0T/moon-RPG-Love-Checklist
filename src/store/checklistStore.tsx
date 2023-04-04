@@ -1,16 +1,12 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import { ChecklistTypes } from '../utils/types'
 
 interface ChecklistState {
   love: number
   animals: Array<string>
   people: Array<string>
   toggle: (itemId: string, love: number, type: ChecklistTypes) => void
-}
-
-export enum ChecklistTypes {
-  People = 'people',
-  Animals = 'animals',
 }
 
 export const useChecklistStore = create<ChecklistState>()(
