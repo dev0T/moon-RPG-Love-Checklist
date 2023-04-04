@@ -22,14 +22,12 @@ export const useChecklistStore = create<ChecklistState>()(
       toggle: (itemId, love, type) => {
         const check = () =>
           set((state) => ({
-            ...state,
             [type]: [...state[type], itemId],
             love: get().love + love,
           }))
 
         const uncheck = () =>
           set((state) => ({
-            ...state,
             [type]: [...state[type].filter((id) => id !== itemId)],
             love: get().love - love,
           }))
