@@ -606,6 +606,61 @@
           "location": "Bakery"
         }
       ]
+    },
+    {
+      "name": "Dr. Stein Hager",
+      "wiki": "https://moonrpg.fandom.com/wiki/Dr._Stein_Hager",
+      "loveRewards": [
+        {
+          "id": 1,
+          "love": 3,
+          "location": "Dr. Hager's Lab"
+        }
+      ]
+    },
+    {
+      "name": "Adder",
+      "wiki": "https://moonrpg.fandom.com/wiki/Adder",
+      "loveRewards": [
+        {
+          "id": 1,
+          "love": 2,
+          "location": "Adder's House"
+        }
+      ]
+    },
+    {
+      "name": "Old Man",
+      "wiki": "https://moonrpg.fandom.com/wiki/Old_Man",
+      "loveRewards": [
+        {
+          "id": 1,
+          "love": 1,
+          "location": "Windmill Hermitage"
+        }
+      ]
+    },
+    {
+      "name": "Gamakatsu",
+      "wiki": "https://moonrpg.fandom.com/wiki/Gamakatsu",
+      "loveRewards": [
+        {
+          "id": 1,
+          "love": 1,
+          "location": "Shellwhale Cove"
+        }
+      ]
+    },
+    {
+      "name": "Shambles",
+      "wiki": "https://moonrpg.fandom.com/wiki/Shambles",
+      "loveRewards": [
+        {
+          "id": 1,
+          "love": 2,
+          "location": "Castle Town"
+        }
+      ]
     }
   ]
 }

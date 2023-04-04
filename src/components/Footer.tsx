@@ -5,11 +5,19 @@ const Footer = () => {
       <div>moon © Onion Games</div>
       <div>
         Made by{' '}
-        <a href="https://github.com/dev0T" target="_blank">
+        <a
+          className="underline decoration-1 underline-offset-2"
+          href="https://github.com/dev0T"
+          target="_blank"
+        >
           dev0T
         </a>{' '}
         &{' '}
-        <a href="https://github.com/salguerooo" target="_blank">
+        <a
+          className="underline decoration-1 underline-offset-2"
+          href="https://github.com/salguerooo"
+          target="_blank"
+        >
           salguerooo
         </a>
       </div>
