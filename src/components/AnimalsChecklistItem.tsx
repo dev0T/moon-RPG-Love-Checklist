@@ -1,4 +1,6 @@
-import { ChecklistTypes, useChecklistStore } from '../store/checklistStore'
+import data from '../data/data'
+import { useChecklistStore } from '../store/checklistStore'
+import { ChecklistTypes } from '../utils/types'
 
 interface AnimalChecklistItemProps {
   name: string
@@ -24,11 +26,14 @@ const AnimalsChecklistItem = ({
     toggle(name, love, ChecklistTypes.Animals)
   }
 
+  const locationInfo = data.locations.find(({ name }) => name === location)
+  console.log(locationInfo)
+
   return (
-    <li key={name} className="m-3 ">
+    <li className="mb-5 last:mb-0">
       <div className="form-control w-52">
         <label
-          className="cursor-powhitespace-nowrapinter label justify-start whitespace-nowrap"
+          className="label justify-start whitespace-nowrap p-0"
           htmlFor={name}
         >
           <input
@@ -37,7 +42,7 @@ const AnimalsChecklistItem = ({
             name="progress"
             data-key={name}
             data-love={love}
-            className="checkbox checkbox-secondary checkbox-md "
+            className="checkbox-secondary checkbox checkbox-md"
             checked={isChecked}
             onChange={handleChecklistItemChange}
           />
@@ -49,7 +54,19 @@ const AnimalsChecklistItem = ({
             >
               {name}
             </a>
-            {` - ${location} - ${love}`}
+            {' - '}
+            {locationInfo ? (
+              <a
+                href={locationInfo?.wiki}
+                target="_blank"
+                className="underline decoration-1 underline-offset-2"
+              >
+                {locationInfo?.name}
+              </a>
+            ) : (
+              location
+            )}
+            {` - ${love}`}
           </span>
         </label>
       </div>

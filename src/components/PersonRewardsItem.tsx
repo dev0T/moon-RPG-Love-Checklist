@@ -1,4 +1,5 @@
-import { ChecklistTypes, useChecklistStore } from '../store/checklistStore'
+import { useChecklistStore } from '../store/checklistStore'
+import { ChecklistTypes } from '../utils/types'
 
 interface PersonRewardsItemProps {
   id: number
@@ -27,10 +28,10 @@ const PersonRewardsItem = ({
   }
 
   return (
-    <li>
-      <div className="form-control w-48 ml-8">
+    <li className="mb-3 last:mb-0">
+      <div className="form-control ml-8 w-48">
         <label
-          className="cursor-pointer label justify-start whitespace-nowrap"
+          className="label justify-start whitespace-nowrap p-0"
           htmlFor={itemId}
         >
           <input
@@ -38,7 +39,7 @@ const PersonRewardsItem = ({
             type="checkbox"
             name="progress"
             data-key={itemId}
-            className="checkbox checkbox-secondary checkbox-md"
+            className="checkbox-secondary checkbox checkbox-md"
             onChange={handleRewardListToggle}
             checked={isChecked}
           />

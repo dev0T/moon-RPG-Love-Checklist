@@ -1,14 +1,11 @@
 import { useChecklistStore } from '../store/checklistStore'
+import { ChecklistTypes, LoveRewards } from '../utils/types'
 import PersonRewardsItem from './PersonRewardsItem'
 
 interface PeopleChecklistItemProps {
   name: string
   wiki: string
-  loveRewards: Array<{
-    id: number
-    love: number
-    location: string
-  }>
+  loveRewards: Array<LoveRewards>
 }
 
 const PeopleChecklistItem = ({
@@ -16,16 +13,40 @@ const PeopleChecklistItem = ({
   wiki,
   loveRewards,
 }: PeopleChecklistItemProps) => {
-  const [people] = useChecklistStore((state) => [state.people])
+  const [people, toggle] = useChecklistStore((state) => [
+    state.people,
+    state.toggle,
+  ])
 
-  const isChecked = false // check if all children are checked
+  const areChilrenChecked = () => {
+    const isChecked = ({ id }: LoveRewards) => people.includes(`${name}-${id}`)
+    const checkedRewards = loveRewards.filter((reward) => isChecked(reward))
+    return checkedRewards.length === loveRewards.length
+  }
+
+  const handleParentToggle = () => {
+    if (areChilrenChecked()) {
+      loveRewards.forEach(({ id, love }) => {
+        const itemId = `${name}-${id}`
+        toggle(itemId, love, ChecklistTypes.People)
+      })
+    } else {
+      loveRewards.forEach(({ id, love }) => {
+        const itemId = `${name}-${id}`
+        const isChecked = people.includes(itemId)
+        if (!isChecked) {
+          toggle(itemId, love, ChecklistTypes.People)
+        }
+      })
+    }
+  }
 
   return (
-    <li className="m-3 ">
+    <li className="mb-5 last:mb-0">
       <ul>
-        <div className="form-control w-52">
+        <div className="form-control mb-3 w-52">
           <label
-            className="cursor-pointer label justify-start whitespace-nowrap"
+            className="label justify-start whitespace-nowrap p-0"
             htmlFor={name}
           >
             <input
@@ -33,9 +54,9 @@ const PeopleChecklistItem = ({
               type="checkbox"
               name="progress"
               data-key={name}
-              checked={isChecked}
-              className="checkbox checkbox-secondary checkbox-md"
-              disabled
+              checked={areChilrenChecked()}
+              onChange={handleParentToggle}
+              className="checkbox-primary checkbox checkbox-md"
             />
             <span className="label-text ml-4 text-xl">
               <a

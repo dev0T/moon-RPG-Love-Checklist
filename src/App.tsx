@@ -5,9 +5,9 @@ import Header from './components/Header'
 
 function App() {
   return (
-    <div className="App text-white h-screen">
-      <div className="flex bg-[url('/assets/darkness.png')] justify-center">
-        <div className="flex flex-col p-6">
+    <div className="App h-screen text-neutral">
+      <div className="flex justify-center bg-[url('/assets/darkness.png')] bg-[length:800px]">
+        <div className="flex flex-col p-5">
           <Header />
           <Content />
         </div>

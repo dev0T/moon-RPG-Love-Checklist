@@ -1,20 +1,16 @@
-import data from '../data/moon_data.json'
+import data from '../data/data'
 import AnimalsChecklistItem from './AnimalsChecklistItem'
+import ChecklistContainer from '../common/ChecklistContainer'
 
 const AnimalsChecklist = () => {
   const { animals } = data
 
   return (
-    <div>
-      <h2 className="text-center text-3xl">Animals</h2>
-      <div className="bg-black m-4">
-        <ul>
-          {animals.map((animal) => (
-            <AnimalsChecklistItem {...animal} key={animal.name} />
-          ))}
-        </ul>
-      </div>
-    </div>
+    <ChecklistContainer title={'Animals'}>
+      {animals.map((animal) => (
+        <AnimalsChecklistItem {...animal} key={animal.name} />
+      ))}
+    </ChecklistContainer>
   )
 }
 
