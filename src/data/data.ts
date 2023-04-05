@@ -2,6 +2,7 @@ import hauntedHouseImage from '../../assets/locations/location_haunted_house.jpg
 import twilightCanyonImage from '../../assets/locations/location_twilight_canyon.jpg'
 import rainbowRocksImage from '../../assets/locations/location_rainbow_rocks.jpg'
 import technopolisImage from '../../assets/locations/location_technopolis.jpg'
+import valleyOfTheWindImage from '../../assets/locations/location_valley_of_the_wind.jpg'
 
 const data = {
   levels: [
@@ -176,6 +177,11 @@ const data = {
       name: 'Technopolis',
       wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
       image: technopolisImage,
+    },
+    {
+      name: 'Valley of the Wind',
+      wiki: 'https://moonrpg.fandom.com/wiki/Valley_of_the_Wind',
+      image: valleyOfTheWindImage,
     },
   ],
   animals: [
@@ -686,6 +692,28 @@ const data = {
           id: 1,
           love: 2,
           location: 'Castle Town',
+        },
+      ],
+    },
+    {
+      name: 'MadeSuma',
+      wiki: 'https://moonrpg.fandom.com/wiki/MadeSuma',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: 'Bali Bali Island',
+        },
+      ],
+    },
+    {
+      name: 'Bilby',
+      wiki: 'https://moonrpg.fandom.com/wiki/Bilby',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: 'Castle',
         },
       ],
     },
