@@ -4,3 +4,61 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@keyframes rainbowdropshadow {
+  0% {
+    text-shadow: 1px 1px 0 #ff0000, 2px 2px 0 #ff7f00, 3px 3px 0 #ffff00;
+  }
+
+  8% {
+    text-shadow: 1px 1px 0 #ff7f00, 2px 2px 0 #ffff00, 3px 3px 0 #7fff00;
+  }
+
+  16% {
+    text-shadow: 1px 1px 0 #ffff00, 2px 2px 0 #7fff00, 3px 3px 0 #00ff00;
+  }
+
+  25% {
+    text-shadow: 1px 1px 0 #7fff00, 2px 2px 0 #00ff00, 3px 3px 0 #00ff7f;
+  }
+
+  33% {
+    text-shadow: 1px 1px 0 #00ff00, 2px 2px 0 #00ff7f, 3px 3px 0 #00ffff;
+  }
+
+  41% {
+    text-shadow: 1px 1px 0 #00ff7f, 2px 2px 0 #00ffff, 3px 3px 0 #007fff;
+  }
+
+  50% {
+    text-shadow: 1px 1px 0 #00ffff, 2px 2px 0 #007fff, 3px 3px 0 #0000ff;
+  }
+
+  58% {
+    text-shadow: 1px 1px 0 #007fff, 2px 2px 0 #0000ff, 3px 3px 0 #7f00ff;
+  }
+
+  66% {
+    text-shadow: 1px 1px 0 #0000ff, 2px 2px 0 #7f00ff, 3px 3px 0 #ff00ff;
+  }
+
+  75% {
+    text-shadow: 1px 1px 0 #7f00ff, 2px 2px 0 #ff00ff, 3px 3px 0 #ff007f;
+  }
+
+  83% {
+    text-shadow: 1px 1px 0 #ff00ff, 2px 2px 0 #ff007f, 3px 3px 0 #ff0000;
+  }
+
+  91% {
+    text-shadow: 1px 1px 0 #ff007f, 2px 2px 0 #ff0000, 3px 3px 0 #ff7f00;
+  }
+
+  100% {
+    text-shadow: 1px 1px 0 #ff0000, 2px 2px 0 #ff7f00, 3px 3px 0 #ffff00;
+  }
+}
+
+.rainbow {
+  animation: rainbowdropshadow 0.6s infinite;
+}

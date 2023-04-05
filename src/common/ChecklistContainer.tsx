@@ -1,5 +1,4 @@
 import { PropsWithChildren } from 'react'
-import data from '../data/moon_data.json'
 
 interface ChecklistContainerProps {
   title: string

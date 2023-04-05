@@ -1,5 +1,5 @@
-import data from '../data/moon_data.json'
 import ChecklistContainer from '../common/ChecklistContainer'
+import data from '../data/data'
 import PeopleChecklistItem from './PeopleChecklistItem'
 
 const PeopleChecklist = () => {

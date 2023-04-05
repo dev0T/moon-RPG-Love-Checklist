@@ -1,4 +1,4 @@
-import data from '../data/moon_data.json'
+import data from '../data/data'
 import AnimalsChecklistItem from './AnimalsChecklistItem'
 import ChecklistContainer from '../common/ChecklistContainer'
 

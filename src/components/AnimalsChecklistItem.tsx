@@ -1,3 +1,4 @@
+import data from '../data/data'
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
 
@@ -25,6 +26,9 @@ const AnimalsChecklistItem = ({
     toggle(name, love, ChecklistTypes.Animals)
   }
 
+  const locationInfo = data.locations.find(({ name }) => name === location)
+  console.log(locationInfo)
+
   return (
     <li className="mb-5 last:mb-0">
       <div className="form-control w-52">
@@ -50,7 +54,19 @@ const AnimalsChecklistItem = ({
             >
               {name}
             </a>
-            {` - ${location} - ${love}`}
+            {' - '}
+            {locationInfo ? (
+              <a
+                href={locationInfo?.wiki}
+                target="_blank"
+                className="underline decoration-1 underline-offset-2"
+              >
+                {locationInfo?.name}
+              </a>
+            ) : (
+              location
+            )}
+            {` - ${love}`}
           </span>
         </label>
       </div>
