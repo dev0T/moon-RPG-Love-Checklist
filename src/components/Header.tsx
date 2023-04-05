@@ -2,7 +2,7 @@ import imgUrl from '../../assets/moon_logo.png'
 
 const Header = () => {
   return (
-    <header className="mb-5 mt-12 flex w-240 grow-0 flex-col items-center">
+    <header className="flex w-240 grow-0 flex-col items-center">
       <img src={imgUrl} className=" pointer-events-none mb-10 w-96" />
       <h1 className="drop-shadow-[3px_0px_8px_rgba(30, 156, 170, 1)] text-4xl font-bold">
         Love Checklist

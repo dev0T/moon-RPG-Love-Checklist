@@ -28,10 +28,10 @@ const PersonRewardsItem = ({
   }
 
   return (
-    <li>
+    <li className="mb-3 last:mb-0">
       <div className="form-control ml-8 w-48">
         <label
-          className="label justify-start whitespace-nowrap"
+          className="label justify-start whitespace-nowrap p-0"
           htmlFor={itemId}
         >
           <input

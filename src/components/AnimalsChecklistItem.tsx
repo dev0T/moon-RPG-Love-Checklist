@@ -26,10 +26,10 @@ const AnimalsChecklistItem = ({
   }
 
   return (
-    <li key={name} className="m-3 ">
+    <li className="mb-5 last:mb-0">
       <div className="form-control w-52">
         <label
-          className="cursor-powhitespace-nowrapinter label justify-start whitespace-nowrap"
+          className="label justify-start whitespace-nowrap p-0"
           htmlFor={name}
         >
           <input

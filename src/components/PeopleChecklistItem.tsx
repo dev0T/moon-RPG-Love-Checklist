@@ -32,11 +32,11 @@ const PeopleChecklistItem = ({
   }
 
   return (
-    <li className="m-3 ">
+    <li className="mb-5 last:mb-0">
       <ul>
-        <div className="form-control w-52">
+        <div className="form-control mb-3 w-52">
           <label
-            className="label justify-start whitespace-nowrap"
+            className="label justify-start whitespace-nowrap p-0"
             htmlFor={name}
           >
             <input

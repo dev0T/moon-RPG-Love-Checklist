@@ -26,7 +26,7 @@ const Content = () => {
 
   return (
     <main className="flex w-240 grow flex-col">
-      <h2 className="mb-5 text-center text-lg">
+      <h2 className="mb-5 mt-5 text-center text-lg">
         {`Love Level ${level} - ${name} - ${totalLove}/200`}
       </h2>
       <div className="flex">
