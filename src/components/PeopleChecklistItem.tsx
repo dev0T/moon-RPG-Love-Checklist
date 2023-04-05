@@ -25,10 +25,20 @@ const PeopleChecklistItem = ({
   }
 
   const handleParentToggle = () => {
-    loveRewards.forEach(({ id, love }) => {
-      const itemId = `${name}-${id}`
-      toggle(itemId, love, ChecklistTypes.People)
-    })
+    if (areChilrenChecked()) {
+      loveRewards.forEach(({ id, love }) => {
+        const itemId = `${name}-${id}`
+        toggle(itemId, love, ChecklistTypes.People)
+      })
+    } else {
+      loveRewards.forEach(({ id, love }) => {
+        const itemId = `${name}-${id}`
+        const isChecked = people.includes(itemId)
+        if (!isChecked) {
+          toggle(itemId, love, ChecklistTypes.People)
+        }
+      })
+    }
   }
 
   return (
