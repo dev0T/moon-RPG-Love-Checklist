@@ -1,7 +1,7 @@
 import AnimalsChecklist from './AnimalsChecklist'
 import PeopleChecklist from './PeopleChecklist'
 import { useChecklistStore } from '../store/checklistStore'
-import data from '../data/moon_data.json'
+import data from '../data/data'
 
 interface LoveLevel {
   level: number
