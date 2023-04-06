@@ -3,6 +3,8 @@ import twilightCanyonImage from '../../assets/locations/location_twilight_canyon
 import rainbowRocksImage from '../../assets/locations/location_rainbow_rocks.jpg'
 import technopolisImage from '../../assets/locations/location_technopolis.jpg'
 import valleyOfTheWindImage from '../../assets/locations/location_valley_of_the_wind.jpg'
+import protagonistsHouseImage from '../../assets/locations/location_valley_of_the_wind.jpg' // this one is missing, figure it out later
+import burrnHallImage from '../../assets/locations/location_burrn_hall.jpg'
 
 const data = {
   levels: [
@@ -182,6 +184,16 @@ const data = {
       name: 'Valley of the Wind',
       wiki: 'https://moonrpg.fandom.com/wiki/Valley_of_the_Wind',
       image: valleyOfTheWindImage,
+    },
+    {
+      name: "Protagonist's House",
+      wiki: 'https://moonrpg.fandom.com/wiki/Protagonist%27s_House',
+      image: protagonistsHouseImage,
+    },
+    {
+      name: 'Burrn Hall',
+      wiki: 'https://moonrpg.fandom.com/wiki/Burrn_Hall',
+      image: burrnHallImage,
     },
   ],
   animals: [
@@ -714,6 +726,50 @@ const data = {
           id: 1,
           love: 2,
           location: 'Castle',
+        },
+      ],
+    },
+    {
+      name: 'King Carefree XIII',
+      wiki: 'https://moonrpg.fandom.com/wiki/King_Carefree_XIII',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: 'Castle',
+        },
+      ],
+    },
+    {
+      name: 'Pokka',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pokka',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Protagonist's House`,
+        },
+      ],
+    },
+    {
+      name: 'Nikka',
+      wiki: 'https://moonrpg.fandom.com/wiki/Nikka',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Protagonist's House`,
+        },
+      ],
+    },
+    {
+      name: 'Burrn',
+      wiki: 'https://moonrpg.fandom.com/wiki/Burrn',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Burrn Hall`,
         },
       ],
     },
