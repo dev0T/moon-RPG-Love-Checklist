@@ -5,6 +5,20 @@ import technopolisImage from '../../assets/locations/location_technopolis.jpg'
 import valleyOfTheWindImage from '../../assets/locations/location_valley_of_the_wind.jpg'
 import protagonistsHouseImage from '../../assets/locations/location_valley_of_the_wind.jpg' // this one is missing, figure it out later
 import burrnHallImage from '../../assets/locations/location_burrn_hall.jpg'
+import castleTownImage from '../../assets/locations/location_castle_town.jpg'
+import castleImage from '../../assets/locations/location_the_castle.jpg'
+import mushroomForestImage from '../../assets/locations/location_mushroom_forest.jpg'
+import tropicalFieldsImage from '../../assets/locations/location_tropical_fields.jpg'
+import shellwhaleCoveImage from '../../assets/locations/location_shellwhale_cove.jpg'
+import americanHouseImage from '../../assets/locations/location_american_house.jpg'
+import tamayasLauncherImage from '../../assets/locations/location_tamayas_launcher.jpg'
+import sunbeamsRoadImage from '../../assets/locations/location_sunbeams_road.jpg'
+import windmillHermitageImage from '../../assets/locations/location_windmill_hermitage.jpg'
+import grambysHouseImage from '../../assets/locations/location_grambys_house.jpg'
+import addersHouseImage from '../../assets/locations/location_adders_house.jpg'
+import caveGuysCaveImage from '../../assets/locations/location_cave_guys_cave.jpg'
+import drHagersLabImage from '../../assets/locations/location_dr_hager_lab.jpg'
+import wildcatHouseImage from '../../assets/locations/location_wildcat_house.jpg'
 
 const data = {
   levels: [
@@ -194,6 +208,96 @@ const data = {
       name: 'Burrn Hall',
       wiki: 'https://moonrpg.fandom.com/wiki/Burrn_Hall',
       image: burrnHallImage,
+    },
+    {
+      name: "Curio's Shop",
+      wiki: "https://moonrpg.fandom.com/wiki/Curio's_Shop",
+      image: castleTownImage,
+    },
+    {
+      name: 'Castle Town',
+      wiki: 'https://moonrpg.fandom.com/wiki/Castle_Town',
+      image: castleTownImage,
+    },
+    {
+      name: "Flora's Flower Shop",
+      wiki: 'https://moonrpg.fandom.com/wiki/Flora%27s_Flower_Shop',
+      image: castleTownImage,
+    },
+    {
+      name: "Baker's Bakery",
+      wiki: 'https://moonrpg.fandom.com/wiki/Baker%27s_Bakery',
+      image: castleTownImage,
+    },
+    {
+      name: 'Castle',
+      wiki: 'https://moonrpg.fandom.com/wiki/Baker%27s_Bakery',
+      image: castleImage,
+    },
+    {
+      name: 'Mushroom Forest',
+      wiki: 'https://moonrpg.fandom.com/wiki/Mushroom_Forest',
+      image: mushroomForestImage,
+    },
+    {
+      name: 'Tropical Fields',
+      wiki: 'https://moonrpg.fandom.com/wiki/Tropical_Fields',
+      image: tropicalFieldsImage,
+    },
+    {
+      name: 'Shellwhale Cove',
+      wiki: 'https://moonrpg.fandom.com/wiki/Shellwhale_Cove',
+      image: shellwhaleCoveImage,
+    },
+    {
+      name: 'American House',
+      wiki: 'https://moonrpg.fandom.com/wiki/American_House',
+      image: americanHouseImage,
+    },
+    {
+      name: "Tamaya's Launcher",
+      wiki: "https://moonrpg.fandom.com/wiki/Tamaya's_Launcher",
+      image: tamayasLauncherImage,
+    },
+    {
+      name: 'Sunbeams Road',
+      wiki: 'https://moonrpg.fandom.com/wiki/Sunbeams_Road',
+      image: sunbeamsRoadImage,
+    },
+    {
+      name: 'Windmill Hermitage',
+      wiki: 'https://moonrpg.fandom.com/wiki/Windmill_Hermitage',
+      image: windmillHermitageImage,
+    },
+    {
+      name: "Gramby's House",
+      wiki: "https://moonrpg.fandom.com/wiki/Gramby's_House",
+      image: grambysHouseImage,
+    },
+    {
+      name: "Adder's House",
+      wiki: "https://moonrpg.fandom.com/wiki/Adder's_House",
+      image: addersHouseImage,
+    },
+    {
+      name: "Cave Guy's Cave",
+      wiki: 'https://moonrpg.fandom.com/wiki/Cave_Guy%27s_Cave',
+      image: caveGuysCaveImage,
+    },
+    {
+      name: "Dr. Hager's Lab",
+      wiki: 'https://moonrpg.fandom.com/wiki/Dr._Hager%27s_Lab',
+      image: drHagersLabImage,
+    },
+    {
+      name: 'Bar Wanda',
+      wiki: 'https://moonrpg.fandom.com/wiki/Bar_Wanda',
+      image: castleTownImage,
+    },
+    {
+      name: 'Wildcat House',
+      wiki: 'https://moonrpg.fandom.com/wiki/Wildcat_House',
+      image: wildcatHouseImage,
     },
   ],
   animals: [
@@ -648,7 +752,7 @@ const data = {
         {
           id: 1,
           love: 1,
-          location: 'Bakery',
+          location: "Baker's Bakery",
         },
       ],
     },
