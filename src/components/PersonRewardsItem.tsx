@@ -1,5 +1,6 @@
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
+import Location from './Location'
 
 interface PersonRewardsItemProps {
   id: number
@@ -43,7 +44,10 @@ const PersonRewardsItem = ({
             onChange={handleRewardListToggle}
             checked={isChecked}
           />
-          <span className="label-text ml-4 text-xl">{`${location} - ${love}`}</span>
+          <span className="label-text ml-4 text-xl">
+            <Location locationName={location} />
+            {` - ${love}`}
+          </span>
         </label>
       </div>
     </li>
