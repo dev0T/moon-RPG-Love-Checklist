@@ -31,9 +31,9 @@ const AnimalsChecklistItem = ({
 
   return (
     <li className="mb-5 last:mb-0">
-      <div className="form-control w-52">
+      <div className="form-control">
         <label
-          className="label justify-start whitespace-nowrap p-0"
+          className="label justify-start whitespace-nowrap p-0 w-full"
           htmlFor={name}
         >
           <input
@@ -42,11 +42,11 @@ const AnimalsChecklistItem = ({
             name="progress"
             data-key={name}
             data-love={love}
-            className="checkbox-secondary checkbox checkbox-md"
+            className="checkbox-secondary checkbox checkbox-sm lg:checkbox-md"
             checked={isChecked}
             onChange={handleChecklistItemChange}
           />
-          <span className="label-text ml-4 text-xl">
+          <span className="label-text ml-4 text-base lg:text-xl">
             <Link href={wiki}>{name}</Link>
             {' - '}
             <Location locationName={location} />

@@ -41,11 +41,11 @@ const PersonRewardsItem = ({
             type="checkbox"
             name="progress"
             data-key={itemId}
-            className="checkbox-secondary checkbox checkbox-md"
+            className="checkbox-secondary checkbox checkbox-sm lg:checkbox-md"
             onChange={handleRewardListToggle}
             checked={isChecked}
           />
-          <span className="label-text ml-4 text-xl">
+          <span className="label-text ml-4 text-base lg:text-xl">
             <Location locationName={location} />
             {` - `}
             <Love amount={love} />

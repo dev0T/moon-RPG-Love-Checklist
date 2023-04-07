@@ -57,9 +57,9 @@ const PeopleChecklistItem = ({
               data-key={name}
               checked={areChilrenChecked()}
               onChange={handleParentToggle}
-              className="checkbox-primary checkbox checkbox-md"
+              className="checkbox-primary checkbox checkbox-sm lg:checkbox-md"
             />
-            <span className="label-text ml-4 text-xl">
+            <span className="label-text ml-4 text-base lg:text-xl">
               <Link href={wiki}>{name}</Link>
             </span>
           </label>

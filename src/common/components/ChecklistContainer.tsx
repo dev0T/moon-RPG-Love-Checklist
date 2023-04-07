@@ -12,7 +12,7 @@ const ChecklistContainer = ({
   wiki,
 }: PropsWithChildren<ChecklistContainerProps>) => {
   return (
-    <div>
+    <div className="w-full">
       <h2 className="text-center text-3xl">
         <Link href={wiki}>{title}</Link>
       </h2>

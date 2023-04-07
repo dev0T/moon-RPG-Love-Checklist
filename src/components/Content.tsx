@@ -35,11 +35,11 @@ const Content = () => {
       >
         {`Love Level ${level} - ${name} - ${totalLove}/200`}
       </h2>
-      <div className="flex">
-        <div className="m-4 w-3/6 grow">
+      <div className="flex flex-col lg:flex-row">
+        <div className="m-4 flex-1">
           <AnimalsChecklist />
         </div>
-        <div className="m-4 w-3/6 grow">
+        <div className="m-4 flex-1">
           <PeopleChecklist />
         </div>
       </div>
