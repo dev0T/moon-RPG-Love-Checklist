@@ -895,7 +895,7 @@ const data = {
         {
           id: 1,
           love: 1,
-          location: `???`,
+          location: `Rainbow Rocks`,
         },
       ],
     },
