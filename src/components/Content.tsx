@@ -27,7 +27,7 @@ const Content = () => {
   const showRainbow = level === 30
 
   return (
-    <main className="flex w-240 grow flex-col">
+    <main className="flex grow flex-col">
       <h2
         className={`mb-5 mt-5 text-center text-lg ${
           showRainbow ? 'rainbow' : ''

@@ -1,6 +1,7 @@
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
 import Location from './Location'
+import Love from './Love'
 
 interface PersonRewardsItemProps {
   id: number
@@ -46,7 +47,8 @@ const PersonRewardsItem = ({
           />
           <span className="label-text ml-4 text-xl">
             <Location locationName={location} />
-            {` - ${love}`}
+            {` - `}
+            <Love amount={love} />
           </span>
         </label>
       </div>

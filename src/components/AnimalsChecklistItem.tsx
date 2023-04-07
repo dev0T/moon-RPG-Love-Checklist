@@ -3,6 +3,7 @@ import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
 import Link from './Link'
 import Location from './Location'
+import Love from './Love'
 
 interface AnimalChecklistItemProps {
   name: string
@@ -49,7 +50,8 @@ const AnimalsChecklistItem = ({
             <Link href={wiki}>{name}</Link>
             {' - '}
             <Location locationName={location} />
-            {` - ${love}`}
+            {` - `}
+            <Love amount={love} />
           </span>
         </label>
       </div>

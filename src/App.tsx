@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App h-screen text-neutral">
       <div className="flex justify-center bg-[url('/assets/darkness.png')] bg-[length:800px]">
-        <div className="flex flex-col p-5">
+        <div className="flex w-4/6 flex-col p-5">
           <Header />
           <Content />
         </div>
