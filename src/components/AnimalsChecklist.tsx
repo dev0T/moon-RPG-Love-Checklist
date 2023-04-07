@@ -6,7 +6,10 @@ const AnimalsChecklist = () => {
   const { animals } = data
 
   return (
-    <ChecklistContainer title={'Animals'}>
+    <ChecklistContainer
+      title="Animals"
+      wiki="https://moonrpg.fandom.com/wiki/Category:Animals"
+    >
       {animals.map((animal) => (
         <AnimalsChecklistItem {...animal} key={animal.name} />
       ))}

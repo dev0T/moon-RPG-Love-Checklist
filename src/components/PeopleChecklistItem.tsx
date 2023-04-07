@@ -1,5 +1,6 @@
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes, LoveRewards } from '../utils/types'
+import Link from './Link'
 import PersonRewardsItem from './PersonRewardsItem'
 
 interface PeopleChecklistItemProps {
@@ -59,13 +60,7 @@ const PeopleChecklistItem = ({
               className="checkbox-primary checkbox checkbox-md"
             />
             <span className="label-text ml-4 text-xl">
-              <a
-                href={wiki}
-                target="_blank"
-                className="underline decoration-1 underline-offset-2"
-              >
-                {name}
-              </a>
+              <Link href={wiki}>{name}</Link>
             </span>
           </label>
         </div>

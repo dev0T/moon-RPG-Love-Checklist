@@ -877,6 +877,17 @@ const data = {
         },
       ],
     },
+    {
+      name: 'Kakunte Tribe',
+      wiki: 'https://moonrpg.fandom.com/wiki/Kakunte_Tribe',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Mushroom Forest`,
+        },
+      ],
+    },
   ],
 }
 

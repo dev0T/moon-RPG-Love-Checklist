@@ -1,4 +1,5 @@
 import data from '../data/data'
+import Link from './Link'
 
 interface LocationProps {
   locationName: string
@@ -10,13 +11,7 @@ const Location = ({ locationName }: LocationProps) => {
   if (locationInfo) {
     return (
       <div className="dropdown-top dropdown dropdown-hover">
-        <a
-          href={locationInfo.wiki}
-          target="_blank"
-          className="underline decoration-1 underline-offset-2"
-        >
-          {locationInfo.name}
-        </a>
+        <Link href={locationInfo.wiki}>{locationInfo.name}</Link>
         <div className="dropdown-content dropdown-end card mb-2 w-[472px] overflow-hidden bg-base-100">
           <img
             className="-mb-8 -ml-[124px] -mr-[124px] -mt-12

@@ -1,6 +1,7 @@
 import data from '../data/data'
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
+import Link from './Link'
 import Location from './Location'
 
 interface AnimalChecklistItemProps {
@@ -45,13 +46,7 @@ const AnimalsChecklistItem = ({
             onChange={handleChecklistItemChange}
           />
           <span className="label-text ml-4 text-xl">
-            <a
-              href={wiki}
-              target="_blank"
-              className="underline decoration-1 underline-offset-2"
-            >
-              {name}
-            </a>
+            <Link href={wiki}>{name}</Link>
             {' - '}
             <Location locationName={location} />
             {` - ${love}`}

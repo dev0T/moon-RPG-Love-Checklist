@@ -6,7 +6,10 @@ const PeopleChecklist = () => {
   const { people } = data
 
   return (
-    <ChecklistContainer title={'People'}>
+    <ChecklistContainer
+      title="People"
+      wiki="https://moonrpg.fandom.com/wiki/Category:Characters"
+    >
       {people.map((person) => (
         <PeopleChecklistItem {...person} key={person.name} />
       ))}
