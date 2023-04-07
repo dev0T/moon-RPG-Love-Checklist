@@ -784,7 +784,7 @@ const data = {
       loveRewards: [
         {
           id: 1,
-          love: 1,
+          love: 2,
           location: 'Windmill Hermitage',
         },
       ],
@@ -885,6 +885,231 @@ const data = {
           id: 1,
           love: 1,
           location: `Mushroom Forest`,
+        },
+      ],
+    },
+    {
+      name: 'Beehav The Pirate',
+      wiki: 'https://moonrpg.fandom.com/wiki/Beehav_The_Pirate',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `???`,
+        },
+      ],
+    },
+    {
+      name: 'Pistil',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Protagonist's House`,
+        },
+      ],
+    },
+    {
+      name: 'Mammas',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `American House`,
+        },
+      ],
+    },
+    {
+      name: 'Pappas',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `American House`,
+        },
+      ],
+    },
+    {
+      name: 'Darlia',
+      wiki: 'https://moonrpg.fandom.com/wiki/Darlia',
+      loveRewards: [
+        {
+          id: 1,
+          love: 4,
+          location: `American House`,
+        },
+      ],
+    },
+    {
+      name: 'Lady Techno',
+      wiki: 'https://moonrpg.fandom.com/wiki/Lady_Techno',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Robo Mayor',
+      wiki: 'https://moonrpg.fandom.com/wiki/Robo_Mayor',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Whisper',
+      wiki: 'https://moonrpg.fandom.com/wiki/Whisper',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: `Haunted House`,
+        },
+      ],
+    },
+    {
+      name: 'Tamaya Heikichi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Tamaya_Heikichi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Tamaya's Launcher`,
+        },
+        {
+          id: 2,
+          love: 1,
+          location: `Tamaya's Launcher`,
+        },
+      ],
+    },
+    {
+      name: 'Femi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Femi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Bar Wanda`,
+        },
+      ],
+    },
+    {
+      name: 'Momi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Momi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Rainbow Rocks`,
+        },
+      ],
+    },
+    {
+      name: 'Umi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Momi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Shellwhale Cove`,
+        },
+      ],
+    },
+    {
+      name: 'Wilted Flowers',
+      wiki: 'https://moonrpg.fandom.com/wiki/Valley_of_the_Wind',
+      loveRewards: [
+        {
+          id: 1,
+          love: 3,
+          location: `Valley of the Wind`,
+        },
+      ],
+    },
+    {
+      name: 'XINGISKAN',
+      wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Sacrifice Animals',
+      wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Robi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Robi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Re-men',
+      wiki: 'https://moonrpg.fandom.com/wiki/Re-men',
+      loveRewards: [
+        {
+          id: 1,
+          love: 4,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Saike',
+      wiki: 'https://moonrpg.fandom.com/wiki/Saike',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Yoshida',
+      wiki: 'https://moonrpg.fandom.com/wiki/Yoshida',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Castle Town`,
+        },
+      ],
+    },
+    {
+      name: 'Cave Guy',
+      wiki: 'https://moonrpg.fandom.com/wiki/Cave_Guy',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Cave Guy's Cave`,
         },
       ],
     },
