@@ -1,6 +1,6 @@
 import data from '../data/data'
 import AnimalsChecklistItem from './AnimalsChecklistItem'
-import ChecklistContainer from '../common/ChecklistContainer'
+import ChecklistContainer from '../common/components/ChecklistContainer'
 
 const AnimalsChecklist = () => {
   const { animals } = data

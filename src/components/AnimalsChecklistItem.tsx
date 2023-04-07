@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import data from '../data/data'
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
@@ -27,7 +28,6 @@ const AnimalsChecklistItem = ({
   }
 
   const locationInfo = data.locations.find(({ name }) => name === location)
-  console.log(locationInfo)
 
   return (
     <li className="mb-5 last:mb-0">
@@ -55,17 +55,29 @@ const AnimalsChecklistItem = ({
               {name}
             </a>
             {' - '}
+
             {locationInfo ? (
-              <a
-                href={locationInfo?.wiki}
-                target="_blank"
-                className="underline decoration-1 underline-offset-2"
-              >
-                {locationInfo?.name}
-              </a>
+              <div className="dropdown-top dropdown dropdown-hover">
+                <a
+                  href={locationInfo?.wiki}
+                  target="_blank"
+                  className="underline decoration-1 underline-offset-2"
+                >
+                  {locationInfo?.name}
+                </a>
+                <div className="dropdown-content dropdown-end card mb-2 w-[472px] overflow-hidden bg-base-100">
+                  <img
+                    className="-mb-8 -ml-[124px] -mr-[124px] -mt-12
+                    max-h-[405px] max-w-[720px]"
+                    alt={`${locationInfo?.name}`}
+                    src={locationInfo?.image}
+                  />
+                </div>
+              </div>
             ) : (
               location
             )}
+
             {` - ${love}`}
           </span>
         </label>

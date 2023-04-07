@@ -1,4 +1,4 @@
-import ChecklistContainer from '../common/ChecklistContainer'
+import ChecklistContainer from '../common/components/ChecklistContainer'
 import data from '../data/data'
 import PeopleChecklistItem from './PeopleChecklistItem'
 
