@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import data from '../data/data'
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
