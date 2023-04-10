@@ -1,4 +1,4 @@
-import heart from '../../../assets/moon_heart.jpg'
+import heart from '../../../assets/heart.svg'
 
 interface LoveProps {
   amount: number
@@ -7,8 +7,8 @@ interface LoveProps {
 const Love = ({ amount }: LoveProps) => {
   return (
     <span>
-      {amount}
-      <img className="inline" src={heart} />
+      {` ${amount} `}
+      <img className="-mt-[2px] inline h-4" src={heart} />
     </span>
   )
 }
