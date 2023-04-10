@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react'
-import Link from '../../components/Link'
+import Link from './Link'
 
 interface ChecklistContainerProps {
   title: string

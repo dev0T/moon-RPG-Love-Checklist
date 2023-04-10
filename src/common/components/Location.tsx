@@ -1,4 +1,4 @@
-import data from '../data/data'
+import data from '../../data/data'
 import Link from './Link'
 
 interface LocationProps {

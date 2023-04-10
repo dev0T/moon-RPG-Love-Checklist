@@ -1,6 +1,6 @@
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes, LoveRewards } from '../utils/types'
-import Link from './Link'
+import Link from '../common/components/Link'
 import PersonRewardsItem from './PersonRewardsItem'
 
 interface PeopleChecklistItemProps {

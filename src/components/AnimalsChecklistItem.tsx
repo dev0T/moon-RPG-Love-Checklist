@@ -1,9 +1,9 @@
 import data from '../data/data'
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
-import Link from './Link'
-import Location from './Location'
-import Love from './Love'
+import Link from '../common/components/Link'
+import Location from '../common/components/Location'
+import Love from '../common/components/Love'
 
 interface AnimalChecklistItemProps {
   name: string

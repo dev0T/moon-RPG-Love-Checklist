@@ -1,7 +1,7 @@
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes } from '../utils/types'
-import Location from './Location'
-import Love from './Love'
+import Location from '../common/components/Location'
+import Love from '../common/components/Love'
 
 interface PersonRewardsItemProps {
   id: number
