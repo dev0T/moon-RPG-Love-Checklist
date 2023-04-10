@@ -1016,7 +1016,7 @@ const data = {
     },
     {
       name: 'Umi',
-      wiki: 'https://moonrpg.fandom.com/wiki/Momi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Umi',
       loveRewards: [
         {
           id: 1,
