@@ -5,6 +5,20 @@ import technopolisImage from '../../assets/locations/location_technopolis.jpg'
 import valleyOfTheWindImage from '../../assets/locations/location_valley_of_the_wind.jpg'
 import protagonistsHouseImage from '../../assets/locations/location_valley_of_the_wind.jpg' // this one is missing, figure it out later
 import burrnHallImage from '../../assets/locations/location_burrn_hall.jpg'
+import castleTownImage from '../../assets/locations/location_castle_town.jpg'
+import castleImage from '../../assets/locations/location_the_castle.jpg'
+import mushroomForestImage from '../../assets/locations/location_mushroom_forest.jpg'
+import tropicalFieldsImage from '../../assets/locations/location_tropical_fields.jpg'
+import shellwhaleCoveImage from '../../assets/locations/location_shellwhale_cove.jpg'
+import americanHouseImage from '../../assets/locations/location_american_house.jpg'
+import tamayasLauncherImage from '../../assets/locations/location_tamayas_launcher.jpg'
+import sunbeamsRoadImage from '../../assets/locations/location_sunbeams_road.jpg'
+import windmillHermitageImage from '../../assets/locations/location_windmill_hermitage.jpg'
+import grambysHouseImage from '../../assets/locations/location_grambys_house.jpg'
+import addersHouseImage from '../../assets/locations/location_adders_house.jpg'
+import caveGuysCaveImage from '../../assets/locations/location_cave_guys_cave.jpg'
+import drHagersLabImage from '../../assets/locations/location_dr_hager_lab.jpg'
+import wildcatHouseImage from '../../assets/locations/location_wildcat_house.jpg'
 
 const data = {
   levels: [
@@ -194,6 +208,96 @@ const data = {
       name: 'Burrn Hall',
       wiki: 'https://moonrpg.fandom.com/wiki/Burrn_Hall',
       image: burrnHallImage,
+    },
+    {
+      name: "Curio's Shop",
+      wiki: "https://moonrpg.fandom.com/wiki/Curio's_Shop",
+      image: castleTownImage,
+    },
+    {
+      name: 'Castle Town',
+      wiki: 'https://moonrpg.fandom.com/wiki/Castle_Town',
+      image: castleTownImage,
+    },
+    {
+      name: "Flora's Flower Shop",
+      wiki: 'https://moonrpg.fandom.com/wiki/Flora%27s_Flower_Shop',
+      image: castleTownImage,
+    },
+    {
+      name: "Baker's Bakery",
+      wiki: 'https://moonrpg.fandom.com/wiki/Baker%27s_Bakery',
+      image: castleTownImage,
+    },
+    {
+      name: 'Castle',
+      wiki: 'https://moonrpg.fandom.com/wiki/Baker%27s_Bakery',
+      image: castleImage,
+    },
+    {
+      name: 'Mushroom Forest',
+      wiki: 'https://moonrpg.fandom.com/wiki/Mushroom_Forest',
+      image: mushroomForestImage,
+    },
+    {
+      name: 'Tropical Fields',
+      wiki: 'https://moonrpg.fandom.com/wiki/Tropical_Fields',
+      image: tropicalFieldsImage,
+    },
+    {
+      name: 'Shellwhale Cove',
+      wiki: 'https://moonrpg.fandom.com/wiki/Shellwhale_Cove',
+      image: shellwhaleCoveImage,
+    },
+    {
+      name: 'American House',
+      wiki: 'https://moonrpg.fandom.com/wiki/American_House',
+      image: americanHouseImage,
+    },
+    {
+      name: "Tamaya's Launcher",
+      wiki: "https://moonrpg.fandom.com/wiki/Tamaya's_Launcher",
+      image: tamayasLauncherImage,
+    },
+    {
+      name: 'Sunbeams Road',
+      wiki: 'https://moonrpg.fandom.com/wiki/Sunbeams_Road',
+      image: sunbeamsRoadImage,
+    },
+    {
+      name: 'Windmill Hermitage',
+      wiki: 'https://moonrpg.fandom.com/wiki/Windmill_Hermitage',
+      image: windmillHermitageImage,
+    },
+    {
+      name: "Gramby's House",
+      wiki: "https://moonrpg.fandom.com/wiki/Gramby's_House",
+      image: grambysHouseImage,
+    },
+    {
+      name: "Adder's House",
+      wiki: "https://moonrpg.fandom.com/wiki/Adder's_House",
+      image: addersHouseImage,
+    },
+    {
+      name: "Cave Guy's Cave",
+      wiki: 'https://moonrpg.fandom.com/wiki/Cave_Guy%27s_Cave',
+      image: caveGuysCaveImage,
+    },
+    {
+      name: "Dr. Hager's Lab",
+      wiki: 'https://moonrpg.fandom.com/wiki/Dr._Hager%27s_Lab',
+      image: drHagersLabImage,
+    },
+    {
+      name: 'Bar Wanda',
+      wiki: 'https://moonrpg.fandom.com/wiki/Bar_Wanda',
+      image: castleTownImage,
+    },
+    {
+      name: 'Wildcat House',
+      wiki: 'https://moonrpg.fandom.com/wiki/Wildcat_House',
+      image: wildcatHouseImage,
     },
   ],
   animals: [
@@ -648,7 +752,7 @@ const data = {
         {
           id: 1,
           love: 1,
-          location: 'Bakery',
+          location: "Baker's Bakery",
         },
       ],
     },
@@ -680,7 +784,7 @@ const data = {
       loveRewards: [
         {
           id: 1,
-          love: 1,
+          love: 2,
           location: 'Windmill Hermitage',
         },
       ],
@@ -770,6 +874,242 @@ const data = {
           id: 1,
           love: 1,
           location: `Burrn Hall`,
+        },
+      ],
+    },
+    {
+      name: 'Kakunte Tribe',
+      wiki: 'https://moonrpg.fandom.com/wiki/Kakunte_Tribe',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Mushroom Forest`,
+        },
+      ],
+    },
+    {
+      name: 'Beehav The Pirate',
+      wiki: 'https://moonrpg.fandom.com/wiki/Beehav_The_Pirate',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Rainbow Rocks`,
+        },
+      ],
+    },
+    {
+      name: 'Pistil',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Protagonist's House`,
+        },
+      ],
+    },
+    {
+      name: 'Mammas',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `American House`,
+        },
+      ],
+    },
+    {
+      name: 'Pappas',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `American House`,
+        },
+      ],
+    },
+    {
+      name: 'Darlia',
+      wiki: 'https://moonrpg.fandom.com/wiki/Darlia',
+      loveRewards: [
+        {
+          id: 1,
+          love: 4,
+          location: `American House`,
+        },
+      ],
+    },
+    {
+      name: 'Lady Techno',
+      wiki: 'https://moonrpg.fandom.com/wiki/Lady_Techno',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Robo Mayor',
+      wiki: 'https://moonrpg.fandom.com/wiki/Robo_Mayor',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Whisper',
+      wiki: 'https://moonrpg.fandom.com/wiki/Whisper',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: `Haunted House`,
+        },
+      ],
+    },
+    {
+      name: 'Tamaya Heikichi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Tamaya_Heikichi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Tamaya's Launcher`,
+        },
+        {
+          id: 2,
+          love: 1,
+          location: `Tamaya's Launcher`,
+        },
+      ],
+    },
+    {
+      name: 'Femi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Femi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Bar Wanda`,
+        },
+      ],
+    },
+    {
+      name: 'Momi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Momi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Rainbow Rocks`,
+        },
+      ],
+    },
+    {
+      name: 'Umi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Momi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Shellwhale Cove`,
+        },
+      ],
+    },
+    {
+      name: 'Wilted Flowers',
+      wiki: 'https://moonrpg.fandom.com/wiki/Valley_of_the_Wind',
+      loveRewards: [
+        {
+          id: 1,
+          love: 3,
+          location: `Valley of the Wind`,
+        },
+      ],
+    },
+    {
+      name: 'XINGISKAN',
+      wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Sacrifice Animals',
+      wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
+      loveRewards: [
+        {
+          id: 1,
+          love: 2,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Robi',
+      wiki: 'https://moonrpg.fandom.com/wiki/Robi',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Re-men',
+      wiki: 'https://moonrpg.fandom.com/wiki/Re-men',
+      loveRewards: [
+        {
+          id: 1,
+          love: 4,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Saike',
+      wiki: 'https://moonrpg.fandom.com/wiki/Saike',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Technopolis`,
+        },
+      ],
+    },
+    {
+      name: 'Yoshida',
+      wiki: 'https://moonrpg.fandom.com/wiki/Yoshida',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Castle Town`,
+        },
+      ],
+    },
+    {
+      name: 'Cave Guy',
+      wiki: 'https://moonrpg.fandom.com/wiki/Cave_Guy',
+      loveRewards: [
+        {
+          id: 1,
+          love: 1,
+          location: `Cave Guy's Cave`,
         },
       ],
     },

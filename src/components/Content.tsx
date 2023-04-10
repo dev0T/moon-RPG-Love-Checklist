@@ -27,7 +27,7 @@ const Content = () => {
   const showRainbow = level === 30
 
   return (
-    <main className="flex w-240 grow flex-col">
+    <main className="flex grow flex-col">
       <h2
         className={`mb-5 mt-5 text-center text-lg ${
           showRainbow ? 'rainbow' : ''
@@ -35,11 +35,11 @@ const Content = () => {
       >
         {`Love Level ${level} - ${name} - ${totalLove}/200`}
       </h2>
-      <div className="flex">
-        <div className="m-4 w-3/6 grow">
+      <div className="flex flex-col lg:flex-row">
+        <div className="m-4 flex-1">
           <AnimalsChecklist />
         </div>
-        <div className="m-4 w-3/6 grow">
+        <div className="m-4 flex-1">
           <PeopleChecklist />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { useChecklistStore } from '../store/checklistStore'
 import { ChecklistTypes, LoveRewards } from '../utils/types'
+import Link from '../common/components/Link'
 import PersonRewardsItem from './PersonRewardsItem'
 
 interface PeopleChecklistItemProps {
@@ -56,16 +57,10 @@ const PeopleChecklistItem = ({
               data-key={name}
               checked={areChilrenChecked()}
               onChange={handleParentToggle}
-              className="checkbox-primary checkbox checkbox-md"
+              className="checkbox-primary checkbox checkbox-sm lg:checkbox-md"
             />
-            <span className="label-text ml-4 text-xl">
-              <a
-                href={wiki}
-                target="_blank"
-                className="underline decoration-1 underline-offset-2"
-              >
-                {name}
-              </a>
+            <span className="label-text ml-4 text-base lg:text-xl">
+              <Link href={wiki}>{name}</Link>
             </span>
           </label>
         </div>
