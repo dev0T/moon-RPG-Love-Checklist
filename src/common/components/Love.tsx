@@ -1,4 +1,4 @@
-import heart from '../../../assets/heart.svg'
+import { VscHeartFilled } from 'react-icons/vsc'
 
 interface LoveProps {
   amount: number
@@ -8,7 +8,7 @@ const Love = ({ amount }: LoveProps) => {
   return (
     <span>
       {` ${amount} `}
-      <img className="-mt-[2px] inline h-4" src={heart} />
+      <VscHeartFilled className="-mt-[2px] inline h-4" size={13} color="red" />
     </span>
   )
 }
