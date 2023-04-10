@@ -1,4 +1,4 @@
-import heart from '../../assets/moon_heart.jpg'
+import heart from '../../../assets/moon_heart.jpg'
 
 interface LoveProps {
   amount: number
