@@ -912,7 +912,7 @@ const data = {
     },
     {
       name: 'Mammas',
-      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      wiki: 'https://moonrpg.fandom.com/wiki/Mammas',
       loveRewards: [
         {
           id: 1,
@@ -923,7 +923,7 @@ const data = {
     },
     {
       name: 'Pappas',
-      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      wiki: 'https://moonrpg.fandom.com/wiki/Pappas',
       loveRewards: [
         {
           id: 1,
