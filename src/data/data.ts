@@ -176,127 +176,127 @@ const data = {
   locations: [
     {
       name: 'Haunted House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Haunted_House',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Haunted_House',
       image: hauntedHouseImage,
     },
     {
       name: 'Twilight Canyon',
-      wiki: 'https://moonrpg.fandom.com/wiki/Twilight_Canyon',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Twilight_Canyon',
       image: twilightCanyonImage,
     },
     {
       name: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Rainbow_Rocks',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Rainbow_Rocks',
       image: rainbowRocksImage,
     },
     {
       name: 'Technopolis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Technopolis',
       image: technopolisImage,
     },
     {
       name: 'Valley of the Wind',
-      wiki: 'https://moonrpg.fandom.com/wiki/Valley_of_the_Wind',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Valley_of_the_Wind',
       image: valleyOfTheWindImage,
     },
     {
       name: "Protagonist's House",
-      wiki: 'https://moonrpg.fandom.com/wiki/Protagonist%27s_House',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Protagonist%27s_House',
       image: protagonistsHouseImage,
     },
     {
       name: 'Burrn Hall',
-      wiki: 'https://moonrpg.fandom.com/wiki/Burrn_Hall',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Burrn_Hall',
       image: burrnHallImage,
     },
     {
       name: "Curio's Shop",
-      wiki: "https://moonrpg.fandom.com/wiki/Curio's_Shop",
+      wiki: "https://moonrpg.breezewiki.com/wiki/Curio's_Shop",
       image: castleTownImage,
     },
     {
       name: 'Castle Town',
-      wiki: 'https://moonrpg.fandom.com/wiki/Castle_Town',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Castle_Town',
       image: castleTownImage,
     },
     {
       name: "Flora's Flower Shop",
-      wiki: 'https://moonrpg.fandom.com/wiki/Flora%27s_Flower_Shop',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Flora%27s_Flower_Shop',
       image: castleTownImage,
     },
     {
       name: "Baker's Bakery",
-      wiki: 'https://moonrpg.fandom.com/wiki/Baker%27s_Bakery',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Baker%27s_Bakery',
       image: castleTownImage,
     },
     {
       name: 'Castle',
-      wiki: 'https://moonrpg.fandom.com/wiki/Baker%27s_Bakery',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Baker%27s_Bakery',
       image: castleImage,
     },
     {
       name: 'Mushroom Forest',
-      wiki: 'https://moonrpg.fandom.com/wiki/Mushroom_Forest',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Mushroom_Forest',
       image: mushroomForestImage,
     },
     {
       name: 'Tropical Fields',
-      wiki: 'https://moonrpg.fandom.com/wiki/Tropical_Fields',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Tropical_Fields',
       image: tropicalFieldsImage,
     },
     {
       name: 'Shellwhale Cove',
-      wiki: 'https://moonrpg.fandom.com/wiki/Shellwhale_Cove',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Shellwhale_Cove',
       image: shellwhaleCoveImage,
     },
     {
       name: 'American House',
-      wiki: 'https://moonrpg.fandom.com/wiki/American_House',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/American_House',
       image: americanHouseImage,
     },
     {
       name: "Tamaya's Launcher",
-      wiki: "https://moonrpg.fandom.com/wiki/Tamaya's_Launcher",
+      wiki: "https://moonrpg.breezewiki.com/wiki/Tamaya's_Launcher",
       image: tamayasLauncherImage,
     },
     {
       name: 'Sunbeams Road',
-      wiki: 'https://moonrpg.fandom.com/wiki/Sunbeams_Road',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Sunbeams_Road',
       image: sunbeamsRoadImage,
     },
     {
       name: 'Windmill Hermitage',
-      wiki: 'https://moonrpg.fandom.com/wiki/Windmill_Hermitage',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Windmill_Hermitage',
       image: windmillHermitageImage,
     },
     {
       name: "Gramby's House",
-      wiki: "https://moonrpg.fandom.com/wiki/Gramby's_House",
+      wiki: "https://moonrpg.breezewiki.com/wiki/Gramby's_House",
       image: grambysHouseImage,
     },
     {
       name: "Adder's House",
-      wiki: "https://moonrpg.fandom.com/wiki/Adder's_House",
+      wiki: "https://moonrpg.breezewiki.com/wiki/Adder's_House",
       image: addersHouseImage,
     },
     {
       name: "Cave Guy's Cave",
-      wiki: 'https://moonrpg.fandom.com/wiki/Cave_Guy%27s_Cave',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Cave_Guy%27s_Cave',
       image: caveGuysCaveImage,
     },
     {
       name: "Dr. Hager's Lab",
-      wiki: 'https://moonrpg.fandom.com/wiki/Dr._Hager%27s_Lab',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Dr._Hager%27s_Lab',
       image: drHagersLabImage,
     },
     {
       name: 'Bar Wanda',
-      wiki: 'https://moonrpg.fandom.com/wiki/Bar_Wanda',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Bar_Wanda',
       image: castleTownImage,
     },
     {
       name: 'Wildcat House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Wildcat_House',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Wildcat_House',
       image: wildcatHouseImage,
     },
   ],
@@ -305,313 +305,313 @@ const data = {
       name: 'Stompkins',
       love: 2,
       location: 'Haunted House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Stompkins',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Stompkins',
     },
     {
       name: 'Sadmile',
       love: 2,
       location: 'Twilight Canyon',
-      wiki: 'https://moonrpg.fandom.com/wiki/Sadmile',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Sadmile',
     },
     {
       name: 'Rocque',
       love: 2,
       location: 'Haunted House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Rocque',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Rocque',
     },
     {
       name: 'Mackarther',
       love: 2,
       location: "Curio's Shop",
-      wiki: 'https://moonrpg.fandom.com/wiki/Mackarther',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Mackarther',
     },
     {
       name: 'Yenom Frog',
       love: 2,
       location: 'Castle Town',
-      wiki: 'https://moonrpg.fandom.com/wiki/Yenom_Frog',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Yenom_Frog',
     },
     {
       name: 'Dream Alien',
       love: 2,
       location: "Cave Guy's Cave",
-      wiki: 'https://moonrpg.fandom.com/wiki/Dream_Alien',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Dream_Alien',
     },
     {
       name: 'Two-oh-cloky',
       love: 2,
       location: 'Haunted House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Two-oh-clocky',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Two-oh-clocky',
     },
     {
       name: 'Tommy',
       love: 3,
       location: 'Tropical Fields',
-      wiki: 'https://moonrpg.fandom.com/wiki/Tommy',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Tommy',
     },
     {
       name: 'Ovon',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Ovon',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Ovon',
     },
     {
       name: 'Kovon',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Kovon',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Kovon',
     },
     {
       name: 'Mino',
       love: 2,
       location: "Protagonist's House",
-      wiki: 'https://moonrpg.fandom.com/wiki/Mino',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Mino',
     },
     {
       name: 'Snacky',
       love: 4,
       location: "Gramby's House",
-      wiki: 'https://moonrpg.fandom.com/wiki/Snacky',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Snacky',
     },
     {
       name: 'Tottoteruri',
       love: 8,
       location: 'Mushroom Forest',
-      wiki: 'https://moonrpg.fandom.com/wiki/Tottoteruri',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Tottoteruri',
     },
     {
       name: 'Sid Vitness',
       love: 2,
       location: "Adder's House",
-      wiki: 'https://moonrpg.fandom.com/wiki/Sid_Vitness',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Sid_Vitness',
     },
     {
       name: 'Keith',
       love: 2,
       location: 'Technopolis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Keith',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Keith',
     },
     {
       name: 'Beck',
       love: 2,
       location: 'Technopolis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Beck',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Beck',
     },
     {
       name: 'Hanachan',
       love: 2,
       location: 'Tropical Fields',
-      wiki: 'https://moonrpg.fandom.com/wiki/Hanachan',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Hanachan',
     },
     {
       name: 'Snowbuddy',
       love: 2,
       location: 'Windmill Hermitage',
-      wiki: 'https://moonrpg.fandom.com/wiki/Snowbuddy',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Snowbuddy',
     },
     {
       name: 'Block of Tofu',
       love: 2,
       location: 'Windmill Hermitage',
-      wiki: 'https://moonrpg.fandom.com/wiki/Block_of_Tofu',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Block_of_Tofu',
     },
     {
       name: 'Pampoo',
       love: 2,
       location: 'Haunted House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Pampoo',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Pampoo',
     },
     {
       name: 'Harpflower',
       love: 2,
       location: "Flora's Flower Shop",
-      wiki: 'https://moonrpg.fandom.com/wiki/Harpflower',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Harpflower',
     },
     {
       name: 'Chairby',
       love: 2,
       location: 'Sunbeams Road',
-      wiki: 'https://moonrpg.fandom.com/wiki/Chairby',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Chairby',
     },
     {
       name: 'Koma-chan',
       love: 2,
       location: 'Sunbeams Road',
-      wiki: 'https://moonrpg.fandom.com/wiki/Koma-chan',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Koma-chan',
     },
     {
       name: 'Mr. Nacky',
       love: 2,
       location: 'Sunbeams Road',
-      wiki: 'https://moonrpg.fandom.com/wiki/Mr._Nacky',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Mr._Nacky',
     },
     {
       name: 'Cyclolyphant',
       love: 2,
       location: 'Mushroom Forest',
-      wiki: 'https://moonrpg.fandom.com/wiki/Cyclolyphant',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Cyclolyphant',
     },
     {
       name: 'Gentlemister',
       love: 2,
       location: "Tamaya's Launcher",
-      wiki: 'https://moonrpg.fandom.com/wiki/Gentlemister',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Gentlemister',
     },
     {
       name: 'Heyboy',
       love: 4,
       location: 'Burrn Hall',
-      wiki: 'https://moonrpg.fandom.com/wiki/Heyboy',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Heyboy',
     },
     {
       name: 'Philip',
       love: 2,
       location: 'Technopolis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Philip',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Philip',
     },
     {
       name: 'Bonzo',
       love: 2,
       location: 'Technopolis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Bonzo',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Bonzo',
     },
     {
       name: 'Erik',
       love: 2,
       location: 'Technopolis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Erik',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Erik',
     },
     {
       name: 'Fighting Fish',
       love: 3,
       location: 'Valley of the Wind',
-      wiki: 'https://moonrpg.fandom.com/wiki/Fighting_Fish',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Fighting_Fish',
     },
     {
       name: 'Birdon',
       love: 2,
       location: 'Twilight Canyon',
-      wiki: 'https://moonrpg.fandom.com/wiki/Birdon',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Birdon',
     },
     {
       name: 'Rockboy',
       love: 2,
       location: 'Mushroom Forest',
-      wiki: 'https://moonrpg.fandom.com/wiki/Rockboy',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Rockboy',
     },
     {
       name: 'Shocky Catfish',
       love: 3,
       location: 'Valley of the Wind',
-      wiki: 'https://moonrpg.fandom.com/wiki/Shocky_Catfish',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Shocky_Catfish',
     },
     {
       name: 'Master Leaf',
       love: 2,
       location: 'Tropical Fields',
-      wiki: 'https://moonrpg.fandom.com/wiki/Master_Leaf',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Master_Leaf',
     },
     {
       name: 'Drakey',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Drakey',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Drakey',
     },
     {
       name: 'Elmo',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Elmo',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Elmo',
     },
     {
       name: 'Gajiro',
       love: 2,
       location: 'Haunted House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Gajiro',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Gajiro',
     },
     {
       name: 'Thworm',
       love: 4,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Thworm',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Thworm',
     },
     {
       name: 'Value Boy',
       love: 2,
       location: 'American House',
-      wiki: 'https://moonrpg.fandom.com/wiki/Value_Boy',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Value_Boy',
     },
     {
       name: 'Wavio',
       love: 2,
       location: 'Mushroom Forest',
-      wiki: 'https://moonrpg.fandom.com/wiki/Wavio',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Wavio',
     },
     {
       name: 'Slymy',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Slymy',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Slymy',
     },
     {
       name: 'Shlyme',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Shlyme',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Shlyme',
     },
     {
       name: 'Goddog Mai Mai',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Goddog_Mai_Mai',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Goddog_Mai_Mai',
     },
     {
       name: 'Jimi',
       love: 2,
       location: 'Technopolis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Jimi',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Jimi',
     },
     {
       name: 'Gluttandra',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Gluttandra',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Gluttandra',
     },
     {
       name: 'Mr. Droll',
       love: 3,
       location: 'Valley of the Wind',
-      wiki: 'https://moonrpg.fandom.com/wiki/Mr._Droll',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Mr._Droll',
     },
     {
       name: 'Molio',
       love: 3,
       location: 'Valley of the Wind',
-      wiki: 'https://moonrpg.fandom.com/wiki/Molio',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Molio',
     },
     {
       name: 'Semimaru',
       love: 2,
       location: 'Rainbow Rocks',
-      wiki: 'https://moonrpg.fandom.com/wiki/Semimaru',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Semimaru',
     },
     {
       name: 'Shellwhale',
       love: 2,
       location: 'Shellwhale Cove',
-      wiki: 'https://moonrpg.fandom.com/wiki/Shellwhale',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Shellwhale',
     },
     {
       name: 'Shadowbird',
       love: 3,
       location: 'Tropical Fields',
-      wiki: 'https://moonrpg.fandom.com/wiki/Shadowbird',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Shadowbird',
     },
   ],
   people: [
     {
       name: 'Kenji',
-      wiki: 'https://moonrpg.fandom.com/wiki/Kenji',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Kenji',
       loveRewards: [
         {
           id: 1,
@@ -622,7 +622,7 @@ const data = {
     },
     {
       name: 'Clis',
-      wiki: 'https://moonrpg.fandom.com/wiki/Clis',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Clis',
       loveRewards: [
         {
           id: 1,
@@ -638,7 +638,7 @@ const data = {
     },
     {
       name: 'Fred',
-      wiki: 'https://moonrpg.fandom.com/wiki/Fred',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Fred',
       loveRewards: [
         {
           id: 1,
@@ -649,7 +649,7 @@ const data = {
     },
     {
       name: 'Noge',
-      wiki: 'https://moonrpg.fandom.com/wiki/Noge',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Noge',
       loveRewards: [
         {
           id: 1,
@@ -665,7 +665,7 @@ const data = {
     },
     {
       name: 'Minister',
-      wiki: 'https://moonrpg.fandom.com/wiki/Minister',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Minister',
       loveRewards: [
         {
           id: 1,
@@ -676,7 +676,7 @@ const data = {
     },
     {
       name: 'Tao',
-      wiki: 'https://moonrpg.fandom.com/wiki/Tao',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Tao',
       loveRewards: [
         {
           id: 1,
@@ -687,7 +687,7 @@ const data = {
     },
     {
       name: 'Wanda',
-      wiki: 'https://moonrpg.fandom.com/wiki/Wanda',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Wanda',
       loveRewards: [
         {
           id: 1,
@@ -698,7 +698,7 @@ const data = {
     },
     {
       name: 'Florence',
-      wiki: 'https://moonrpg.fandom.com/wiki/Florence',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Florence',
       loveRewards: [
         {
           id: 1,
@@ -709,7 +709,7 @@ const data = {
     },
     {
       name: 'Birdman',
-      wiki: 'https://moonrpg.fandom.com/wiki/Birdman',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Birdman',
       loveRewards: [
         {
           id: 1,
@@ -720,7 +720,7 @@ const data = {
     },
     {
       name: 'Gramby',
-      wiki: 'https://moonrpg.fandom.com/wiki/Gramby',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Gramby',
       loveRewards: [
         {
           id: 1,
@@ -736,7 +736,7 @@ const data = {
     },
     {
       name: 'Curio',
-      wiki: 'https://moonrpg.fandom.com/wiki/Curio',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Curio',
       loveRewards: [
         {
           id: 1,
@@ -747,7 +747,7 @@ const data = {
     },
     {
       name: 'Baker',
-      wiki: 'https://moonrpg.fandom.com/wiki/Baker',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Baker',
       loveRewards: [
         {
           id: 1,
@@ -758,7 +758,7 @@ const data = {
     },
     {
       name: 'Dr. Stein Hager',
-      wiki: 'https://moonrpg.fandom.com/wiki/Dr._Stein_Hager',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Dr._Stein_Hager',
       loveRewards: [
         {
           id: 1,
@@ -769,7 +769,7 @@ const data = {
     },
     {
       name: 'Adder',
-      wiki: 'https://moonrpg.fandom.com/wiki/Adder',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Adder',
       loveRewards: [
         {
           id: 1,
@@ -780,7 +780,7 @@ const data = {
     },
     {
       name: 'Old Man',
-      wiki: 'https://moonrpg.fandom.com/wiki/Old_Man',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Old_Man',
       loveRewards: [
         {
           id: 1,
@@ -791,7 +791,7 @@ const data = {
     },
     {
       name: 'Gamakatsu',
-      wiki: 'https://moonrpg.fandom.com/wiki/Gamakatsu',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Gamakatsu',
       loveRewards: [
         {
           id: 1,
@@ -802,7 +802,7 @@ const data = {
     },
     {
       name: 'Shambles',
-      wiki: 'https://moonrpg.fandom.com/wiki/Shambles',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Shambles',
       loveRewards: [
         {
           id: 1,
@@ -813,7 +813,7 @@ const data = {
     },
     {
       name: 'MadeSuma',
-      wiki: 'https://moonrpg.fandom.com/wiki/MadeSuma',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/MadeSuma',
       loveRewards: [
         {
           id: 1,
@@ -824,7 +824,7 @@ const data = {
     },
     {
       name: 'Bilby',
-      wiki: 'https://moonrpg.fandom.com/wiki/Bilby',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Bilby',
       loveRewards: [
         {
           id: 1,
@@ -835,7 +835,7 @@ const data = {
     },
     {
       name: 'King Carefree XIII',
-      wiki: 'https://moonrpg.fandom.com/wiki/King_Carefree_XIII',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/King_Carefree_XIII',
       loveRewards: [
         {
           id: 1,
@@ -846,7 +846,7 @@ const data = {
     },
     {
       name: 'Pokka',
-      wiki: 'https://moonrpg.fandom.com/wiki/Pokka',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Pokka',
       loveRewards: [
         {
           id: 1,
@@ -857,7 +857,7 @@ const data = {
     },
     {
       name: 'Nikka',
-      wiki: 'https://moonrpg.fandom.com/wiki/Nikka',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Nikka',
       loveRewards: [
         {
           id: 1,
@@ -868,7 +868,7 @@ const data = {
     },
     {
       name: 'Burrn',
-      wiki: 'https://moonrpg.fandom.com/wiki/Burrn',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Burrn',
       loveRewards: [
         {
           id: 1,
@@ -879,7 +879,7 @@ const data = {
     },
     {
       name: 'Kakunte Tribe',
-      wiki: 'https://moonrpg.fandom.com/wiki/Kakunte_Tribe',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Kakunte_Tribe',
       loveRewards: [
         {
           id: 1,
@@ -890,7 +890,7 @@ const data = {
     },
     {
       name: 'Beehav The Pirate',
-      wiki: 'https://moonrpg.fandom.com/wiki/Beehav_The_Pirate',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Beehav_The_Pirate',
       loveRewards: [
         {
           id: 1,
@@ -901,7 +901,7 @@ const data = {
     },
     {
       name: 'Pistil',
-      wiki: 'https://moonrpg.fandom.com/wiki/Pistil',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Pistil',
       loveRewards: [
         {
           id: 1,
@@ -912,7 +912,7 @@ const data = {
     },
     {
       name: 'Mammas',
-      wiki: 'https://moonrpg.fandom.com/wiki/Mammas',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Mammas',
       loveRewards: [
         {
           id: 1,
@@ -923,7 +923,7 @@ const data = {
     },
     {
       name: 'Pappas',
-      wiki: 'https://moonrpg.fandom.com/wiki/Pappas',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Pappas',
       loveRewards: [
         {
           id: 1,
@@ -934,7 +934,7 @@ const data = {
     },
     {
       name: 'Darlia',
-      wiki: 'https://moonrpg.fandom.com/wiki/Darlia',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Darlia',
       loveRewards: [
         {
           id: 1,
@@ -945,7 +945,7 @@ const data = {
     },
     {
       name: 'Lady Techno',
-      wiki: 'https://moonrpg.fandom.com/wiki/Lady_Techno',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Lady_Techno',
       loveRewards: [
         {
           id: 1,
@@ -956,7 +956,7 @@ const data = {
     },
     {
       name: 'Robo Mayor',
-      wiki: 'https://moonrpg.fandom.com/wiki/Robo_Mayor',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Robo_Mayor',
       loveRewards: [
         {
           id: 1,
@@ -967,7 +967,7 @@ const data = {
     },
     {
       name: 'Whisper',
-      wiki: 'https://moonrpg.fandom.com/wiki/Whisper',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Whisper',
       loveRewards: [
         {
           id: 1,
@@ -978,7 +978,7 @@ const data = {
     },
     {
       name: 'Tamaya Heikichi',
-      wiki: 'https://moonrpg.fandom.com/wiki/Tamaya_Heikichi',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Tamaya_Heikichi',
       loveRewards: [
         {
           id: 1,
@@ -994,7 +994,7 @@ const data = {
     },
     {
       name: 'Femi',
-      wiki: 'https://moonrpg.fandom.com/wiki/Femi',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Femi',
       loveRewards: [
         {
           id: 1,
@@ -1005,7 +1005,7 @@ const data = {
     },
     {
       name: 'Momi',
-      wiki: 'https://moonrpg.fandom.com/wiki/Momi',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Momi',
       loveRewards: [
         {
           id: 1,
@@ -1016,7 +1016,7 @@ const data = {
     },
     {
       name: 'Umi',
-      wiki: 'https://moonrpg.fandom.com/wiki/Umi',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Umi',
       loveRewards: [
         {
           id: 1,
@@ -1027,7 +1027,7 @@ const data = {
     },
     {
       name: 'Wilted Flowers',
-      wiki: 'https://moonrpg.fandom.com/wiki/Valley_of_the_Wind',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Valley_of_the_Wind',
       loveRewards: [
         {
           id: 1,
@@ -1038,7 +1038,7 @@ const data = {
     },
     {
       name: 'XINGISKAN',
-      wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Technopolis',
       loveRewards: [
         {
           id: 1,
@@ -1049,7 +1049,7 @@ const data = {
     },
     {
       name: 'Sacrifice Animals',
-      wiki: 'https://moonrpg.fandom.com/wiki/Technopolis',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Technopolis',
       loveRewards: [
         {
           id: 1,
@@ -1060,7 +1060,7 @@ const data = {
     },
     {
       name: 'Robi',
-      wiki: 'https://moonrpg.fandom.com/wiki/Robi',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Robi',
       loveRewards: [
         {
           id: 1,
@@ -1071,7 +1071,7 @@ const data = {
     },
     {
       name: 'Re-men',
-      wiki: 'https://moonrpg.fandom.com/wiki/Re-men',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Re-men',
       loveRewards: [
         {
           id: 1,
@@ -1082,7 +1082,7 @@ const data = {
     },
     {
       name: 'Saike',
-      wiki: 'https://moonrpg.fandom.com/wiki/Saike',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Saike',
       loveRewards: [
         {
           id: 1,
@@ -1093,7 +1093,7 @@ const data = {
     },
     {
       name: 'Yoshida',
-      wiki: 'https://moonrpg.fandom.com/wiki/Yoshida',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Yoshida',
       loveRewards: [
         {
           id: 1,
@@ -1104,7 +1104,7 @@ const data = {
     },
     {
       name: 'Cave Guy',
-      wiki: 'https://moonrpg.fandom.com/wiki/Cave_Guy',
+      wiki: 'https://moonrpg.breezewiki.com/wiki/Cave_Guy',
       loveRewards: [
         {
           id: 1,

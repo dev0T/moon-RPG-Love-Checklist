@@ -8,7 +8,7 @@ const AnimalsChecklist = () => {
   return (
     <ChecklistContainer
       title="Animals"
-      wiki="https://moonrpg.fandom.com/wiki/Category:Animals"
+      wiki="https://moonrpg.breezewiki.com/wiki/Category:Animals"
     >
       {animals.map((animal) => (
         <AnimalsChecklistItem {...animal} key={animal.name} />
