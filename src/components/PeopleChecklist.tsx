@@ -8,7 +8,7 @@ const PeopleChecklist = () => {
   return (
     <ChecklistContainer
       title="People"
-      wiki="https://moonrpg.fandom.com/wiki/Category:Characters"
+      wiki="https://moonrpg.breezewiki.com/wiki/Category:Characters"
     >
       {people.map((person) => (
         <PeopleChecklistItem {...person} key={person.name} />
